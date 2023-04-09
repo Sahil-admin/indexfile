@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,                                                                                                                                                             700&display=swap" rel="stylesheet">
+        <style>
+                body {
+                        margin: 0;
+                        padding: 0;
+                        font-family: 'Poppins', sans-serif;
+                        background: linear-gradient(to right, #556270, #FF6B6B);
+                }
+                .container {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        width: 400px;
+                        background: #fff;
+                        border-radius: 5px;
+                        padding: 30px 40px;
+                        box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+                        text-align: center;
+                }
+                h1 {
+                        margin: 0;
+                        padding: 0 0 20px;
+                        font-size: 30px;
+                        color: #556270;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                }
+                form {
+                        position: relative;
+                        z-index: 1;
+                }
+                form input {
+                        display: block;
+                        width: 100%;
+                        padding: 10px;
+                        font-size: 16px;
+                        color: #555;
+                        border: none;
+                        border-radius: 5px;
+                        margin: 20px 0;
+                        background: #f1f1f1;
+                }
+                form input:focus {
+                        background: #ddd;
+                        outline: none;
+                }
+                form button {
+                        display: inline-block;
+                        background: #FF6B6B;
+                        color: #fff;
+                        padding: 10px 20px;
+                        font-size: 16px;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        transition: background 0.3s ease-in-out;
+                }
+                form button:hover {
+                        background: #FF7F7F;
+                }
+                span {
+                        font-size: 14px;
+                        color: #888;
+                        margin-bottom: 20px;
+                        display: block;
+                }
+                a {
+                        color: #FF6B6B;
+                        text-decoration: none;
+                        font-size: 14px;
+                        transition: color 0.3s ease-in-out;
+                }
+                a:hover {
+                        color: #FF7F7F;
+                }
+        </style>
+</head>
+<body>
+        <div class="container">
+                <h1>Login</h1>
+                <form>
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit">Login</button>
+                        <span>Don't have an account? <a href="#">Sign up</a></sp                                                                                                                                                             an>
+                </form>
+        </div>
+</body>
+</html>
